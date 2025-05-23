@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import { Box, Button, Typography, Grid, Stack } from "@mui/material";
+import { Box, Button, Typography, Stack } from "@mui/material";
 import { useRouter } from "next/navigation";
 
 export default function Home() {
@@ -16,7 +16,7 @@ export default function Home() {
 				direction="column"
 				alignItems="center"
 			>
-				<Button fullWidth onClick={() => router.push("/create")}>
+				<Button fullWidth onClick={() => router.push("/instructions")}>
 					<Typography>Instructions</Typography>
 				</Button>
 				<Button fullWidth onClick={() => router.push("/join")}>

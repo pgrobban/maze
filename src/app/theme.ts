@@ -9,7 +9,7 @@ const theme = createTheme({
     },
     background: {
       default: '#121212',
-    },
+    }
   },
   typography: {
     fontSize: 20,
@@ -19,6 +19,9 @@ const theme = createTheme({
       letterSpacing: '0.05em',
       fontSize: '1.1rem',
       textTransform: 'none',
+    },
+    h2: {
+      fontFamily: "Trajan Pro Regular, serif",
     },
   },
   components: {

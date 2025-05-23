@@ -22,7 +22,7 @@ export default function RootLayout({
 			<body>
 				<ThemeProvider theme={theme}>
 					<CssBaseline />
-					<Box margin={"0 auto"} width={1400} height={900}>
+					<Box margin={"0 auto"} width={1000} height={900}>
 						<Box mt={4}>{children}</Box>
 						<Box position={"fixed"} right={30} bottom={20}>
 							&copy; Original book text and illustrations by Christopher Manson
