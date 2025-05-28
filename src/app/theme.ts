@@ -5,11 +5,14 @@ const theme = createTheme({
   palette: {
     mode: "dark",
     primary: {
-      main: '#90caf9',
+      main: '#e53935', // A vivid red, good contrast on dark
+      dark: '#ab000d', // Optional: darker variant
+      light: '#ff6f60', // Optional: lighter variant
+      contrastText: '#fff', // Ensure white text on red
     },
     background: {
       default: '#121212',
-    }
+    },
   },
   typography: {
     fontSize: 20,
@@ -42,9 +45,24 @@ const theme = createTheme({
             borderColor: '#ccc',
           },
         },
+        containedPrimary: {
+          backgroundColor: '#e53935',
+          color: '#fff',
+          '&:hover': {
+            backgroundColor: '#d32f2f',
+          },
+        },
+        outlinedPrimary: {
+          borderColor: '#e53935',
+          color: '#ed5451',
+          '&:hover': {
+            backgroundColor: 'rgba(229, 57, 53, 0.08)',
+            borderColor: '#d32f2f',
+          },
+        },
       },
-    }
-  }
+    },
+  },
 });
 
 export default theme;

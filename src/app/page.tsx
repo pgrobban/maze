@@ -19,12 +19,11 @@ export default function Home() {
 				<Button fullWidth onClick={() => router.push("/instructions")}>
 					<Typography>Instructions</Typography>
 				</Button>
-				<Button fullWidth onClick={() => router.push("/join")}>
+				<Button fullWidth onClick={() => router.push("/prologue")}>
 					<Typography>Read the prologue text</Typography>
 				</Button>
 				<Button
 					sx={{
-						boxShadow: "0 0 10px rgba(173, 216, 230, 0.6)",
 						textShadow: "0 0 4px #fff",
 					}}
 				>

@@ -15,3 +15,12 @@
 a {
 	color: red;
 }
+
+.drop-cap::first-letter {
+	float: left;
+	font-size: 3rem;
+	line-height: 0.3;
+	padding-right: 0.1em;
+	font-weight: bold;
+	font-family: "Trajan Pro Bold", serif;
+}

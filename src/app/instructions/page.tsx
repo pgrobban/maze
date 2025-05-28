@@ -1,8 +1,11 @@
 "use client";
-import { Box, Typography } from "@mui/material";
+import { Box, Button, Grid, Typography } from "@mui/material";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 
-export default function Home() {
+export default function Instructions() {
+	const router = useRouter();
+
 	return (
 		<Box>
 			<Typography variant="h2">Instructions</Typography>
@@ -65,6 +68,19 @@ export default function Home() {
 				Now proceed to the <Link href="/prologue">Prologue</Link>... your guide
 				awaits you.
 			</Typography>
+
+			<Grid container mt={2} spacing={2}>
+				<Grid>
+					<Button variant="outlined" onClick={() => router.push("/")}>
+						Back
+					</Button>
+				</Grid>
+				<Grid>
+					<Button variant="outlined" onClick={() => router.push("/prologue")}>
+						Prologue
+					</Button>
+				</Grid>
+			</Grid>
 		</Box>
 	);
 }
