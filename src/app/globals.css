@@ -18,9 +18,10 @@ a {
 
 .drop-cap::first-letter {
 	float: left;
-	font-size: 3rem;
-	line-height: 0.3;
-	padding-right: 0.1em;
-	font-weight: bold;
+	font-size: 4.5rem;
+	line-height: 0.85;
+	padding-right: 0.2em;
 	font-family: "Trajan Pro Bold", serif;
+	font-weight: bold;
+	margin-top: 0.1em;
 }

@@ -23,6 +23,7 @@ export default function Prologue() {
 				through the symbols and spaces of this Underworld. They think I will
 				teach them lessons. They should call me Cerberus, ... I am the lesson.
 			</Typography>
+			<br />
 			<Typography>
 				The monstrous walls rise up and run away as far as the human eye can
 				see, circling and dividing. Which half is the Maze?
@@ -33,8 +34,9 @@ export default function Prologue() {
 				wood and paint; it is made of time and mystery, hope and fear.
 				Construction never stops. I take some pride in my role as architect.
 			</Typography>
+			<br />
 			<Typography>
-				They think I will guide them to the center. Perhaps will...
+				They think I will guide them to the center. Perhaps I will...
 			</Typography>
 			<Typography>The sun was very hot.</Typography>
 			<Typography>
